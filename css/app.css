@@ -1,3 +1,4 @@
+
 h1 {
   /*text-align: center;*/
   font-family: Comic Sans MS, Comic Sans;
@@ -7,7 +8,12 @@ h1 {
   margin-left: 45vw;
 }
 #paper {
-  margin-left: 47vw;
+  margin-left: 45vw;
+  background-color: #DDDDDD;
+  font-family: Comic Sans MS;
+  font-size-adjust: auto;
+  border-width: thin;
+  border-color: 1px solid #9C9C9C;
 }
 button {
   margin-left: 45vw;

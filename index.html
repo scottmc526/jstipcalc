@@ -11,10 +11,10 @@
         <h1>Tip Calculator</h1>
       </p>
       <p>
-        <input id="money" type="text" name="scott" placeholder="enter an amount...">
+        <input id="money" type="text" name="scott" onkeypress="return event.charCode >= 48 && event.charCode <=57" placeholder="enter an amount...">
       </p>
       <p>
-        <input id="paper" name="scott" name="scott" type="button" value="Calculate Tip">
+        <input id="paper" name="scott" type="button" value="Calculate Tip">
       </p>
       <p>
         <h2 id="total"></h2>
